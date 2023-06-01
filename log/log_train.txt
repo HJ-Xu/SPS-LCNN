@@ -1,0 +1,1782 @@
+Namespace(batch_size=16, decay_rate=0.7, decay_step=200000, gpu=0, learning_rate=0.001, log_dir='log', max_epoch=251, model='point2sequence_cls', momentum=0.9, normal=False, num_point=1024, optimizer='adam')
+pid: 52526
+**** EPOCH 000 ****
+2019-10-31 13:36:46.688595
+2019-10-31 13:38:33.042076
+---- EPOCH 000 EVALUATION ----
+eval mean loss: 0.943741
+eval accuracy: 0.740276
+eval avg class acc: 0.636360
+Model saved in file: log/model.ckpt
+**** EPOCH 001 ****
+2019-10-31 13:38:46.409917
+2019-10-31 13:40:15.222931
+---- EPOCH 001 EVALUATION ----
+eval mean loss: 0.630757
+eval accuracy: 0.813209
+eval avg class acc: 0.744767
+Model saved in file: log/model.ckpt
+**** EPOCH 002 ****
+2019-10-31 13:40:25.277280
+2019-10-31 13:41:54.498854
+---- EPOCH 002 EVALUATION ----
+eval mean loss: 0.538195
+eval accuracy: 0.828606
+eval avg class acc: 0.771180
+Model saved in file: log/model.ckpt
+**** EPOCH 003 ****
+2019-10-31 13:42:04.267455
+2019-10-31 13:43:33.350925
+---- EPOCH 003 EVALUATION ----
+eval mean loss: 0.474235
+eval accuracy: 0.851702
+eval avg class acc: 0.769686
+Model saved in file: log/model.ckpt
+**** EPOCH 004 ****
+2019-10-31 13:43:43.043512
+2019-10-31 13:45:12.100760
+---- EPOCH 004 EVALUATION ----
+eval mean loss: 0.425552
+eval accuracy: 0.863857
+eval avg class acc: 0.784140
+Model saved in file: log/model.ckpt
+**** EPOCH 005 ****
+2019-10-31 13:45:22.381784
+2019-10-31 13:46:51.317094
+---- EPOCH 005 EVALUATION ----
+eval mean loss: 0.455900
+eval accuracy: 0.846434
+eval avg class acc: 0.782517
+**** EPOCH 006 ****
+2019-10-31 13:47:00.389866
+2019-10-31 13:48:29.602227
+---- EPOCH 006 EVALUATION ----
+eval mean loss: 0.424921
+eval accuracy: 0.861021
+eval avg class acc: 0.804116
+**** EPOCH 007 ****
+2019-10-31 13:48:38.723693
+2019-10-31 13:50:07.765279
+---- EPOCH 007 EVALUATION ----
+eval mean loss: 0.387338
+eval accuracy: 0.875203
+eval avg class acc: 0.813360
+Model saved in file: log/model.ckpt
+**** EPOCH 008 ****
+2019-10-31 13:50:17.527673
+2019-10-31 13:51:47.021876
+---- EPOCH 008 EVALUATION ----
+eval mean loss: 0.389912
+eval accuracy: 0.880470
+eval avg class acc: 0.813756
+Model saved in file: log/model.ckpt
+**** EPOCH 009 ****
+2019-10-31 13:51:56.642660
+2019-10-31 13:53:25.795961
+---- EPOCH 009 EVALUATION ----
+eval mean loss: 0.379531
+eval accuracy: 0.887358
+eval avg class acc: 0.836297
+Model saved in file: log/model.ckpt
+**** EPOCH 010 ****
+2019-10-31 13:53:35.686266
+2019-10-31 13:55:04.875537
+---- EPOCH 010 EVALUATION ----
+eval mean loss: 0.381984
+eval accuracy: 0.877634
+eval avg class acc: 0.827047
+**** EPOCH 011 ****
+2019-10-31 13:55:14.573317
+2019-10-31 13:56:43.413461
+---- EPOCH 011 EVALUATION ----
+eval mean loss: 0.367758
+eval accuracy: 0.888574
+eval avg class acc: 0.844349
+Model saved in file: log/model.ckpt
+**** EPOCH 012 ****
+2019-10-31 13:56:52.996070
+2019-10-31 13:58:22.525338
+---- EPOCH 012 EVALUATION ----
+eval mean loss: 0.368872
+eval accuracy: 0.877634
+eval avg class acc: 0.836849
+**** EPOCH 013 ****
+2019-10-31 13:58:31.240031
+2019-10-31 14:00:00.793726
+---- EPOCH 013 EVALUATION ----
+eval mean loss: 0.358431
+eval accuracy: 0.884927
+eval avg class acc: 0.841686
+**** EPOCH 014 ****
+2019-10-31 14:00:09.982786
+2019-10-31 14:01:40.036479
+---- EPOCH 014 EVALUATION ----
+eval mean loss: 0.348731
+eval accuracy: 0.887358
+eval avg class acc: 0.836802
+**** EPOCH 015 ****
+2019-10-31 14:01:49.246489
+2019-10-31 14:03:19.086309
+---- EPOCH 015 EVALUATION ----
+eval mean loss: 0.343738
+eval accuracy: 0.892220
+eval avg class acc: 0.841262
+Model saved in file: log/model.ckpt
+**** EPOCH 016 ****
+2019-10-31 14:03:28.874213
+2019-10-31 14:04:58.544464
+---- EPOCH 016 EVALUATION ----
+eval mean loss: 0.355230
+eval accuracy: 0.890600
+eval avg class acc: 0.856930
+**** EPOCH 017 ****
+2019-10-31 14:05:08.539338
+2019-10-31 14:06:38.032902
+---- EPOCH 017 EVALUATION ----
+eval mean loss: 0.354569
+eval accuracy: 0.896272
+eval avg class acc: 0.847552
+Model saved in file: log/model.ckpt
+**** EPOCH 018 ****
+2019-10-31 14:06:47.921347
+2019-10-31 14:08:17.399622
+---- EPOCH 018 EVALUATION ----
+eval mean loss: 0.328902
+eval accuracy: 0.897893
+eval avg class acc: 0.846250
+Model saved in file: log/model.ckpt
+**** EPOCH 019 ****
+2019-10-31 14:08:27.542394
+2019-10-31 14:09:55.872558
+---- EPOCH 019 EVALUATION ----
+eval mean loss: 0.336788
+eval accuracy: 0.891410
+eval avg class acc: 0.833256
+**** EPOCH 020 ****
+2019-10-31 14:10:05.477882
+2019-10-31 14:11:34.330360
+---- EPOCH 020 EVALUATION ----
+eval mean loss: 0.331430
+eval accuracy: 0.893841
+eval avg class acc: 0.838552
+**** EPOCH 021 ****
+2019-10-31 14:11:43.820672
+2019-10-31 14:13:12.951216
+---- EPOCH 021 EVALUATION ----
+eval mean loss: 0.304724
+eval accuracy: 0.892220
+eval avg class acc: 0.844552
+**** EPOCH 022 ****
+2019-10-31 14:13:22.674312
+2019-10-31 14:14:51.993549
+---- EPOCH 022 EVALUATION ----
+eval mean loss: 0.321958
+eval accuracy: 0.894652
+eval avg class acc: 0.864221
+**** EPOCH 023 ****
+2019-10-31 14:15:01.610034
+2019-10-31 14:16:30.110365
+---- EPOCH 023 EVALUATION ----
+eval mean loss: 0.311599
+eval accuracy: 0.897083
+eval avg class acc: 0.851128
+**** EPOCH 024 ****
+2019-10-31 14:16:39.204402
+2019-10-31 14:18:08.100354
+---- EPOCH 024 EVALUATION ----
+eval mean loss: 0.321435
+eval accuracy: 0.895462
+eval avg class acc: 0.841465
+**** EPOCH 025 ****
+2019-10-31 14:18:17.401843
+2019-10-31 14:19:46.470692
+---- EPOCH 025 EVALUATION ----
+eval mean loss: 0.295351
+eval accuracy: 0.905592
+eval avg class acc: 0.865174
+Model saved in file: log/model.ckpt
+**** EPOCH 026 ****
+2019-10-31 14:19:56.265334
+2019-10-31 14:21:24.849539
+---- EPOCH 026 EVALUATION ----
+eval mean loss: 0.309969
+eval accuracy: 0.896677
+eval avg class acc: 0.854913
+**** EPOCH 027 ****
+2019-10-31 14:21:34.282822
+2019-10-31 14:23:03.341625
+---- EPOCH 027 EVALUATION ----
+eval mean loss: 0.317541
+eval accuracy: 0.897488
+eval avg class acc: 0.859221
+**** EPOCH 028 ****
+2019-10-31 14:23:12.975711
+2019-10-31 14:24:42.169060
+---- EPOCH 028 EVALUATION ----
+eval mean loss: 0.298476
+eval accuracy: 0.902755
+eval avg class acc: 0.867006
+**** EPOCH 029 ****
+2019-10-31 14:24:51.526521
+2019-10-31 14:26:20.414129
+---- EPOCH 029 EVALUATION ----
+eval mean loss: 0.304338
+eval accuracy: 0.901540
+eval avg class acc: 0.858308
+**** EPOCH 030 ****
+2019-10-31 14:26:30.032448
+2019-10-31 14:28:00.039373
+---- EPOCH 030 EVALUATION ----
+eval mean loss: 0.304538
+eval accuracy: 0.899919
+eval avg class acc: 0.863256
+**** EPOCH 031 ****
+2019-10-31 14:28:09.591451
+2019-10-31 14:29:39.062723
+---- EPOCH 031 EVALUATION ----
+eval mean loss: 0.306545
+eval accuracy: 0.907618
+eval avg class acc: 0.869953
+Model saved in file: log/model.ckpt
+**** EPOCH 032 ****
+2019-10-31 14:29:48.877685
+2019-10-31 14:31:17.574385
+---- EPOCH 032 EVALUATION ----
+eval mean loss: 0.282518
+eval accuracy: 0.909238
+eval avg class acc: 0.868581
+Model saved in file: log/model.ckpt
+**** EPOCH 033 ****
+2019-10-31 14:31:27.161331
+2019-10-31 14:32:56.827375
+---- EPOCH 033 EVALUATION ----
+eval mean loss: 0.302361
+eval accuracy: 0.903971
+eval avg class acc: 0.865953
+**** EPOCH 034 ****
+2019-10-31 14:33:06.279680
+2019-10-31 14:34:36.264067
+---- EPOCH 034 EVALUATION ----
+eval mean loss: 0.297650
+eval accuracy: 0.907212
+eval avg class acc: 0.851453
+**** EPOCH 035 ****
+2019-10-31 14:34:45.382523
+2019-10-31 14:36:14.631314
+---- EPOCH 035 EVALUATION ----
+eval mean loss: 0.315310
+eval accuracy: 0.907212
+eval avg class acc: 0.859581
+**** EPOCH 036 ****
+2019-10-31 14:36:24.413547
+2019-10-31 14:37:53.424336
+---- EPOCH 036 EVALUATION ----
+eval mean loss: 0.307925
+eval accuracy: 0.907212
+eval avg class acc: 0.862581
+**** EPOCH 037 ****
+2019-10-31 14:38:03.163502
+2019-10-31 14:39:31.439927
+---- EPOCH 037 EVALUATION ----
+eval mean loss: 0.317187
+eval accuracy: 0.902755
+eval avg class acc: 0.863581
+**** EPOCH 038 ****
+2019-10-31 14:39:40.937420
+2019-10-31 14:41:10.206993
+---- EPOCH 038 EVALUATION ----
+eval mean loss: 0.295631
+eval accuracy: 0.904781
+eval avg class acc: 0.863797
+**** EPOCH 039 ****
+2019-10-31 14:41:20.240635
+2019-10-31 14:42:49.001628
+---- EPOCH 039 EVALUATION ----
+eval mean loss: 0.309355
+eval accuracy: 0.903566
+eval avg class acc: 0.864006
+**** EPOCH 040 ****
+2019-10-31 14:42:58.882205
+2019-10-31 14:44:28.410487
+---- EPOCH 040 EVALUATION ----
+eval mean loss: 0.289136
+eval accuracy: 0.909238
+eval avg class acc: 0.869959
+**** EPOCH 041 ****
+2019-10-31 14:44:38.097840
+2019-10-31 14:46:07.680753
+---- EPOCH 041 EVALUATION ----
+eval mean loss: 0.301542
+eval accuracy: 0.903971
+eval avg class acc: 0.863913
+**** EPOCH 042 ****
+2019-10-31 14:46:17.693366
+2019-10-31 14:47:46.457621
+---- EPOCH 042 EVALUATION ----
+eval mean loss: 0.299680
+eval accuracy: 0.900324
+eval avg class acc: 0.858453
+**** EPOCH 043 ****
+2019-10-31 14:47:56.242994
+2019-10-31 14:49:24.418639
+---- EPOCH 043 EVALUATION ----
+eval mean loss: 0.283568
+eval accuracy: 0.910859
+eval avg class acc: 0.870959
+Model saved in file: log/model.ckpt
+**** EPOCH 044 ****
+2019-10-31 14:49:34.719924
+2019-10-31 14:51:04.079570
+---- EPOCH 044 EVALUATION ----
+eval mean loss: 0.293218
+eval accuracy: 0.907618
+eval avg class acc: 0.868081
+**** EPOCH 045 ****
+2019-10-31 14:51:13.233967
+2019-10-31 14:52:42.871821
+---- EPOCH 045 EVALUATION ----
+eval mean loss: 0.296104
+eval accuracy: 0.912885
+eval avg class acc: 0.874919
+Model saved in file: log/model.ckpt
+**** EPOCH 046 ****
+2019-10-31 14:52:52.283720
+2019-10-31 14:54:21.261930
+---- EPOCH 046 EVALUATION ----
+eval mean loss: 0.283566
+eval accuracy: 0.910049
+eval avg class acc: 0.865459
+**** EPOCH 047 ****
+2019-10-31 14:54:30.633930
+2019-10-31 14:55:59.450049
+---- EPOCH 047 EVALUATION ----
+eval mean loss: 0.301089
+eval accuracy: 0.907618
+eval avg class acc: 0.862041
+**** EPOCH 048 ****
+2019-10-31 14:56:08.729760
+2019-10-31 14:57:37.907093
+---- EPOCH 048 EVALUATION ----
+eval mean loss: 0.311325
+eval accuracy: 0.908428
+eval avg class acc: 0.874372
+**** EPOCH 049 ****
+2019-10-31 14:57:47.650131
+2019-10-31 14:59:16.505469
+---- EPOCH 049 EVALUATION ----
+eval mean loss: 0.309090
+eval accuracy: 0.902755
+eval avg class acc: 0.865163
+**** EPOCH 050 ****
+2019-10-31 14:59:25.483337
+2019-10-31 15:00:54.577203
+---- EPOCH 050 EVALUATION ----
+eval mean loss: 0.302416
+eval accuracy: 0.908428
+eval avg class acc: 0.877000
+**** EPOCH 051 ****
+2019-10-31 15:01:03.897406
+2019-10-31 15:02:33.424622
+---- EPOCH 051 EVALUATION ----
+eval mean loss: 0.302883
+eval accuracy: 0.907618
+eval avg class acc: 0.864419
+**** EPOCH 052 ****
+2019-10-31 15:02:42.580364
+2019-10-31 15:04:11.975099
+---- EPOCH 052 EVALUATION ----
+eval mean loss: 0.294636
+eval accuracy: 0.910454
+eval avg class acc: 0.874581
+**** EPOCH 053 ****
+2019-10-31 15:04:21.201086
+2019-10-31 15:05:49.769510
+---- EPOCH 053 EVALUATION ----
+eval mean loss: 0.307449
+eval accuracy: 0.905592
+eval avg class acc: 0.879035
+**** EPOCH 054 ****
+2019-10-31 15:05:58.910489
+2019-10-31 15:07:27.981182
+---- EPOCH 054 EVALUATION ----
+eval mean loss: 0.294926
+eval accuracy: 0.916532
+eval avg class acc: 0.881616
+Model saved in file: log/model.ckpt
+**** EPOCH 055 ****
+2019-10-31 15:07:37.968870
+2019-10-31 15:09:07.004650
+---- EPOCH 055 EVALUATION ----
+eval mean loss: 0.294478
+eval accuracy: 0.909643
+eval avg class acc: 0.870791
+**** EPOCH 056 ****
+2019-10-31 15:09:16.688860
+2019-10-31 15:10:46.426603
+---- EPOCH 056 EVALUATION ----
+eval mean loss: 0.308474
+eval accuracy: 0.903160
+eval avg class acc: 0.869343
+**** EPOCH 057 ****
+2019-10-31 15:10:55.451839
+2019-10-31 15:12:25.068015
+---- EPOCH 057 EVALUATION ----
+eval mean loss: 0.306901
+eval accuracy: 0.909238
+eval avg class acc: 0.872837
+**** EPOCH 058 ****
+2019-10-31 15:12:34.086937
+2019-10-31 15:14:02.550901
+---- EPOCH 058 EVALUATION ----
+eval mean loss: 0.321586
+eval accuracy: 0.904376
+eval avg class acc: 0.867163
+**** EPOCH 059 ****
+2019-10-31 15:14:11.964351
+2019-10-31 15:15:40.666626
+---- EPOCH 059 EVALUATION ----
+eval mean loss: 0.306735
+eval accuracy: 0.912075
+eval avg class acc: 0.870419
+**** EPOCH 060 ****
+2019-10-31 15:15:49.812713
+2019-10-31 15:17:19.522474
+---- EPOCH 060 EVALUATION ----
+eval mean loss: 0.315131
+eval accuracy: 0.907212
+eval avg class acc: 0.865157
+**** EPOCH 061 ****
+2019-10-31 15:17:28.586350
+2019-10-31 15:18:57.820739
+---- EPOCH 061 EVALUATION ----
+eval mean loss: 0.299053
+eval accuracy: 0.910049
+eval avg class acc: 0.873041
+**** EPOCH 062 ****
+2019-10-31 15:19:07.298839
+2019-10-31 15:20:35.934051
+---- EPOCH 062 EVALUATION ----
+eval mean loss: 0.300919
+eval accuracy: 0.905997
+eval avg class acc: 0.869919
+**** EPOCH 063 ****
+2019-10-31 15:20:45.104879
+2019-10-31 15:22:14.514888
+---- EPOCH 063 EVALUATION ----
+eval mean loss: 0.293082
+eval accuracy: 0.911669
+eval avg class acc: 0.882250
+**** EPOCH 064 ****
+2019-10-31 15:22:23.981239
+2019-10-31 15:23:53.805626
+---- EPOCH 064 EVALUATION ----
+eval mean loss: 0.304344
+eval accuracy: 0.917342
+eval avg class acc: 0.878081
+Model saved in file: log/model.ckpt
+**** EPOCH 065 ****
+2019-10-31 15:24:03.701905
+2019-10-31 15:25:33.705062
+---- EPOCH 065 EVALUATION ----
+eval mean loss: 0.302185
+eval accuracy: 0.909643
+eval avg class acc: 0.867919
+**** EPOCH 066 ****
+2019-10-31 15:25:43.207765
+2019-10-31 15:27:12.761423
+---- EPOCH 066 EVALUATION ----
+eval mean loss: 0.305549
+eval accuracy: 0.910859
+eval avg class acc: 0.878000
+**** EPOCH 067 ****
+2019-10-31 15:27:21.891564
+2019-10-31 15:28:50.967208
+---- EPOCH 067 EVALUATION ----
+eval mean loss: 0.293562
+eval accuracy: 0.914506
+eval avg class acc: 0.882372
+**** EPOCH 068 ****
+2019-10-31 15:29:00.060843
+2019-10-31 15:30:29.426839
+---- EPOCH 068 EVALUATION ----
+eval mean loss: 0.305397
+eval accuracy: 0.909643
+eval avg class acc: 0.871209
+**** EPOCH 069 ****
+2019-10-31 15:30:39.142874
+2019-10-31 15:32:08.587256
+---- EPOCH 069 EVALUATION ----
+eval mean loss: 0.311265
+eval accuracy: 0.905592
+eval avg class acc: 0.870541
+**** EPOCH 070 ****
+2019-10-31 15:32:17.537881
+2019-10-31 15:33:46.753730
+---- EPOCH 070 EVALUATION ----
+eval mean loss: 0.293322
+eval accuracy: 0.917747
+eval avg class acc: 0.884203
+Model saved in file: log/model.ckpt
+**** EPOCH 071 ****
+2019-10-31 15:33:56.458467
+2019-10-31 15:35:25.932272
+---- EPOCH 071 EVALUATION ----
+eval mean loss: 0.299138
+eval accuracy: 0.911264
+eval avg class acc: 0.877366
+**** EPOCH 072 ****
+2019-10-31 15:35:35.601655
+2019-10-31 15:37:05.332224
+---- EPOCH 072 EVALUATION ----
+eval mean loss: 0.311772
+eval accuracy: 0.909238
+eval avg class acc: 0.873797
+**** EPOCH 073 ****
+2019-10-31 15:37:14.059752
+2019-10-31 15:38:43.431447
+---- EPOCH 073 EVALUATION ----
+eval mean loss: 0.306734
+eval accuracy: 0.912885
+eval avg class acc: 0.874453
+**** EPOCH 074 ****
+2019-10-31 15:38:52.469908
+2019-10-31 15:40:21.972753
+---- EPOCH 074 EVALUATION ----
+eval mean loss: 0.301500
+eval accuracy: 0.911264
+eval avg class acc: 0.875674
+**** EPOCH 075 ****
+2019-10-31 15:40:30.882008
+2019-10-31 15:42:00.319416
+---- EPOCH 075 EVALUATION ----
+eval mean loss: 0.311322
+eval accuracy: 0.907212
+eval avg class acc: 0.878913
+**** EPOCH 076 ****
+2019-10-31 15:42:09.035913
+2019-10-31 15:43:38.547626
+---- EPOCH 076 EVALUATION ----
+eval mean loss: 0.313411
+eval accuracy: 0.912075
+eval avg class acc: 0.871785
+**** EPOCH 077 ****
+2019-10-31 15:43:48.452645
+2019-10-31 15:45:17.767336
+---- EPOCH 077 EVALUATION ----
+eval mean loss: 0.303168
+eval accuracy: 0.910049
+eval avg class acc: 0.875331
+**** EPOCH 078 ****
+2019-10-31 15:45:27.229149
+2019-10-31 15:46:55.860700
+---- EPOCH 078 EVALUATION ----
+eval mean loss: 0.331318
+eval accuracy: 0.909643
+eval avg class acc: 0.874238
+**** EPOCH 079 ****
+2019-10-31 15:47:05.437379
+2019-10-31 15:48:35.043033
+---- EPOCH 079 EVALUATION ----
+eval mean loss: 0.312384
+eval accuracy: 0.908833
+eval avg class acc: 0.870453
+**** EPOCH 080 ****
+2019-10-31 15:48:44.172812
+2019-10-31 15:50:13.434233
+---- EPOCH 080 EVALUATION ----
+eval mean loss: 0.313137
+eval accuracy: 0.908428
+eval avg class acc: 0.868000
+**** EPOCH 081 ****
+2019-10-31 15:50:22.768095
+2019-10-31 15:51:51.715189
+---- EPOCH 081 EVALUATION ----
+eval mean loss: 0.292010
+eval accuracy: 0.917747
+eval avg class acc: 0.878366
+**** EPOCH 082 ****
+2019-10-31 15:52:01.000361
+2019-10-31 15:53:30.298429
+---- EPOCH 082 EVALUATION ----
+eval mean loss: 0.299760
+eval accuracy: 0.917747
+eval avg class acc: 0.877576
+**** EPOCH 083 ****
+2019-10-31 15:53:40.099963
+2019-10-31 15:55:09.827432
+---- EPOCH 083 EVALUATION ----
+eval mean loss: 0.298369
+eval accuracy: 0.912885
+eval avg class acc: 0.872953
+**** EPOCH 084 ****
+2019-10-31 15:55:18.837838
+2019-10-31 15:56:48.252647
+---- EPOCH 084 EVALUATION ----
+eval mean loss: 0.310889
+eval accuracy: 0.912885
+eval avg class acc: 0.874326
+**** EPOCH 085 ****
+2019-10-31 15:56:57.618819
+2019-10-31 15:58:27.088336
+---- EPOCH 085 EVALUATION ----
+eval mean loss: 0.322564
+eval accuracy: 0.906402
+eval avg class acc: 0.872244
+**** EPOCH 086 ****
+2019-10-31 15:58:36.150424
+2019-10-31 16:00:05.856150
+---- EPOCH 086 EVALUATION ----
+eval mean loss: 0.298624
+eval accuracy: 0.913695
+eval avg class acc: 0.879663
+**** EPOCH 087 ****
+2019-10-31 16:00:15.113807
+2019-10-31 16:01:44.255063
+---- EPOCH 087 EVALUATION ----
+eval mean loss: 0.322569
+eval accuracy: 0.912885
+eval avg class acc: 0.877663
+**** EPOCH 088 ****
+2019-10-31 16:01:53.760484
+2019-10-31 16:03:22.405996
+---- EPOCH 088 EVALUATION ----
+eval mean loss: 0.312441
+eval accuracy: 0.905186
+eval avg class acc: 0.866419
+**** EPOCH 089 ****
+2019-10-31 16:03:32.063732
+2019-10-31 16:05:00.366765
+---- EPOCH 089 EVALUATION ----
+eval mean loss: 0.322432
+eval accuracy: 0.907212
+eval avg class acc: 0.870785
+**** EPOCH 090 ****
+2019-10-31 16:05:09.753321
+2019-10-31 16:06:38.580447
+---- EPOCH 090 EVALUATION ----
+eval mean loss: 0.327814
+eval accuracy: 0.908428
+eval avg class acc: 0.870919
+**** EPOCH 091 ****
+2019-10-31 16:06:47.804812
+2019-10-31 16:08:16.460057
+---- EPOCH 091 EVALUATION ----
+eval mean loss: 0.320247
+eval accuracy: 0.909643
+eval avg class acc: 0.876872
+**** EPOCH 092 ****
+2019-10-31 16:08:25.870705
+2019-10-31 16:09:55.256714
+---- EPOCH 092 EVALUATION ----
+eval mean loss: 0.320910
+eval accuracy: 0.911264
+eval avg class acc: 0.881209
+**** EPOCH 093 ****
+2019-10-31 16:10:04.907490
+2019-10-31 16:11:33.776877
+---- EPOCH 093 EVALUATION ----
+eval mean loss: 0.315767
+eval accuracy: 0.910454
+eval avg class acc: 0.873628
+**** EPOCH 094 ****
+2019-10-31 16:11:43.451877
+2019-10-31 16:13:12.918600
+---- EPOCH 094 EVALUATION ----
+eval mean loss: 0.300208
+eval accuracy: 0.911264
+eval avg class acc: 0.880250
+**** EPOCH 095 ****
+2019-10-31 16:13:22.572405
+2019-10-31 16:14:52.159284
+---- EPOCH 095 EVALUATION ----
+eval mean loss: 0.314172
+eval accuracy: 0.911669
+eval avg class acc: 0.875331
+**** EPOCH 096 ****
+2019-10-31 16:15:01.528987
+2019-10-31 16:16:32.112367
+---- EPOCH 096 EVALUATION ----
+eval mean loss: 0.328782
+eval accuracy: 0.905997
+eval avg class acc: 0.868913
+**** EPOCH 097 ****
+2019-10-31 16:16:41.859005
+2019-10-31 16:18:11.941489
+---- EPOCH 097 EVALUATION ----
+eval mean loss: 0.318679
+eval accuracy: 0.915316
+eval avg class acc: 0.876913
+**** EPOCH 098 ****
+2019-10-31 16:18:21.487641
+2019-10-31 16:19:50.962907
+---- EPOCH 098 EVALUATION ----
+eval mean loss: 0.309221
+eval accuracy: 0.915316
+eval avg class acc: 0.875581
+**** EPOCH 099 ****
+2019-10-31 16:19:59.491814
+2019-10-31 16:21:29.095893
+---- EPOCH 099 EVALUATION ----
+eval mean loss: 0.324044
+eval accuracy: 0.912885
+eval avg class acc: 0.880535
+**** EPOCH 100 ****
+2019-10-31 16:21:38.182468
+2019-10-31 16:23:09.088925
+---- EPOCH 100 EVALUATION ----
+eval mean loss: 0.319730
+eval accuracy: 0.915316
+eval avg class acc: 0.880703
+**** EPOCH 101 ****
+2019-10-31 16:23:18.210636
+2019-10-31 16:24:47.434252
+---- EPOCH 101 EVALUATION ----
+eval mean loss: 0.310012
+eval accuracy: 0.912480
+eval avg class acc: 0.876076
+**** EPOCH 102 ****
+2019-10-31 16:24:56.727115
+2019-10-31 16:26:26.722378
+---- EPOCH 102 EVALUATION ----
+eval mean loss: 0.304338
+eval accuracy: 0.915721
+eval avg class acc: 0.878994
+**** EPOCH 103 ****
+2019-10-31 16:26:35.622413
+2019-10-31 16:28:05.330651
+---- EPOCH 103 EVALUATION ----
+eval mean loss: 0.319365
+eval accuracy: 0.913695
+eval avg class acc: 0.876791
+**** EPOCH 104 ****
+2019-10-31 16:28:14.507025
+2019-10-31 16:29:44.033142
+---- EPOCH 104 EVALUATION ----
+eval mean loss: 0.311762
+eval accuracy: 0.915721
+eval avg class acc: 0.880244
+**** EPOCH 105 ****
+2019-10-31 16:29:53.054479
+2019-10-31 16:31:22.444216
+---- EPOCH 105 EVALUATION ----
+eval mean loss: 0.310715
+eval accuracy: 0.912480
+eval avg class acc: 0.875453
+**** EPOCH 106 ****
+2019-10-31 16:31:32.650334
+2019-10-31 16:33:02.716412
+---- EPOCH 106 EVALUATION ----
+eval mean loss: 0.311901
+eval accuracy: 0.916126
+eval avg class acc: 0.885372
+**** EPOCH 107 ****
+2019-10-31 16:33:11.657153
+2019-10-31 16:34:41.641238
+---- EPOCH 107 EVALUATION ----
+eval mean loss: 0.315671
+eval accuracy: 0.914911
+eval avg class acc: 0.880372
+**** EPOCH 108 ****
+2019-10-31 16:34:50.783709
+2019-10-31 16:36:20.376258
+---- EPOCH 108 EVALUATION ----
+eval mean loss: 0.318986
+eval accuracy: 0.918558
+eval avg class acc: 0.884785
+Model saved in file: log/model.ckpt
+**** EPOCH 109 ****
+2019-10-31 16:36:30.248991
+2019-10-31 16:38:00.001319
+---- EPOCH 109 EVALUATION ----
+eval mean loss: 0.318162
+eval accuracy: 0.912075
+eval avg class acc: 0.884203
+**** EPOCH 110 ****
+2019-10-31 16:38:09.741329
+2019-10-31 16:39:40.096683
+---- EPOCH 110 EVALUATION ----
+eval mean loss: 0.322953
+eval accuracy: 0.917747
+eval avg class acc: 0.884622
+**** EPOCH 111 ****
+2019-10-31 16:39:49.111005
+2019-10-31 16:41:18.718191
+---- EPOCH 111 EVALUATION ----
+eval mean loss: 0.326663
+eval accuracy: 0.909238
+eval avg class acc: 0.878041
+**** EPOCH 112 ****
+2019-10-31 16:41:27.502078
+2019-10-31 16:42:57.965831
+---- EPOCH 112 EVALUATION ----
+eval mean loss: 0.318089
+eval accuracy: 0.917342
+eval avg class acc: 0.885488
+**** EPOCH 113 ****
+2019-10-31 16:43:07.249012
+2019-10-31 16:44:37.059628
+---- EPOCH 113 EVALUATION ----
+eval mean loss: 0.325357
+eval accuracy: 0.913290
+eval avg class acc: 0.878785
+**** EPOCH 114 ****
+2019-10-31 16:44:46.247928
+2019-10-31 16:46:16.453743
+---- EPOCH 114 EVALUATION ----
+eval mean loss: 0.317984
+eval accuracy: 0.917747
+eval avg class acc: 0.882203
+**** EPOCH 115 ****
+2019-10-31 16:46:25.529874
+2019-10-31 16:47:55.157398
+---- EPOCH 115 EVALUATION ----
+eval mean loss: 0.332888
+eval accuracy: 0.914911
+eval avg class acc: 0.879744
+**** EPOCH 116 ****
+2019-10-31 16:48:04.484932
+2019-10-31 16:49:34.423647
+---- EPOCH 116 EVALUATION ----
+eval mean loss: 0.320279
+eval accuracy: 0.912480
+eval avg class acc: 0.877587
+**** EPOCH 117 ****
+2019-10-31 16:49:44.234472
+2019-10-31 16:51:13.706980
+---- EPOCH 117 EVALUATION ----
+eval mean loss: 0.312781
+eval accuracy: 0.914100
+eval avg class acc: 0.881203
+**** EPOCH 118 ****
+2019-10-31 16:51:23.247312
+2019-10-31 16:52:55.335340
+---- EPOCH 118 EVALUATION ----
+eval mean loss: 0.316106
+eval accuracy: 0.919773
+eval avg class acc: 0.887785
+Model saved in file: log/model.ckpt
+**** EPOCH 119 ****
+2019-10-31 16:53:05.426254
+2019-10-31 16:54:34.810488
+---- EPOCH 119 EVALUATION ----
+eval mean loss: 0.319667
+eval accuracy: 0.914506
+eval avg class acc: 0.883535
+**** EPOCH 120 ****
+2019-10-31 16:54:44.472490
+2019-10-31 16:56:13.113445
+---- EPOCH 120 EVALUATION ----
+eval mean loss: 0.332399
+eval accuracy: 0.907212
+eval avg class acc: 0.880866
+**** EPOCH 121 ****
+2019-10-31 16:56:22.662695
+2019-10-31 16:57:51.031600
+---- EPOCH 121 EVALUATION ----
+eval mean loss: 0.324328
+eval accuracy: 0.914100
+eval avg class acc: 0.884837
+**** EPOCH 122 ****
+2019-10-31 16:58:00.643050
+2019-10-31 16:59:29.847067
+---- EPOCH 122 EVALUATION ----
+eval mean loss: 0.313689
+eval accuracy: 0.918152
+eval avg class acc: 0.889291
+**** EPOCH 123 ****
+2019-10-31 16:59:39.023954
+2019-10-31 17:01:08.337515
+---- EPOCH 123 EVALUATION ----
+eval mean loss: 0.312422
+eval accuracy: 0.917747
+eval avg class acc: 0.884163
+**** EPOCH 124 ****
+2019-10-31 17:01:17.337557
+2019-10-31 17:02:46.961695
+---- EPOCH 124 EVALUATION ----
+eval mean loss: 0.301715
+eval accuracy: 0.914100
+eval avg class acc: 0.883122
+**** EPOCH 125 ****
+2019-10-31 17:02:56.406244
+2019-10-31 17:04:26.375479
+---- EPOCH 125 EVALUATION ----
+eval mean loss: 0.331139
+eval accuracy: 0.912480
+eval avg class acc: 0.881831
+**** EPOCH 126 ****
+2019-10-31 17:04:35.286534
+2019-10-31 17:06:04.534302
+---- EPOCH 126 EVALUATION ----
+eval mean loss: 0.323990
+eval accuracy: 0.918152
+eval avg class acc: 0.885331
+**** EPOCH 127 ****
+2019-10-31 17:06:13.722895
+2019-10-31 17:07:43.077752
+---- EPOCH 127 EVALUATION ----
+eval mean loss: 0.322545
+eval accuracy: 0.915721
+eval avg class acc: 0.884163
+**** EPOCH 128 ****
+2019-10-31 17:07:52.380909
+2019-10-31 17:09:21.505143
+---- EPOCH 128 EVALUATION ----
+eval mean loss: 0.319546
+eval accuracy: 0.918963
+eval avg class acc: 0.888163
+**** EPOCH 129 ****
+2019-10-31 17:09:30.194330
+2019-10-31 17:10:58.854282
+---- EPOCH 129 EVALUATION ----
+eval mean loss: 0.318853
+eval accuracy: 0.917747
+eval avg class acc: 0.882250
+**** EPOCH 130 ****
+2019-10-31 17:11:07.349273
+2019-10-31 17:12:36.709875
+---- EPOCH 130 EVALUATION ----
+eval mean loss: 0.311981
+eval accuracy: 0.919773
+eval avg class acc: 0.889826
+**** EPOCH 131 ****
+2019-10-31 17:12:46.117787
+2019-10-31 17:14:15.058558
+---- EPOCH 131 EVALUATION ----
+eval mean loss: 0.306578
+eval accuracy: 0.916937
+eval avg class acc: 0.887994
+**** EPOCH 132 ****
+2019-10-31 17:14:24.109609
+2019-10-31 17:15:52.861616
+---- EPOCH 132 EVALUATION ----
+eval mean loss: 0.314301
+eval accuracy: 0.924230
+eval avg class acc: 0.898535
+Model saved in file: log/model.ckpt
+**** EPOCH 133 ****
+2019-10-31 17:16:02.066616
+2019-10-31 17:17:30.184702
+---- EPOCH 133 EVALUATION ----
+eval mean loss: 0.332066
+eval accuracy: 0.917342
+eval avg class acc: 0.881872
+**** EPOCH 134 ****
+2019-10-31 17:17:38.779511
+2019-10-31 17:19:07.641448
+---- EPOCH 134 EVALUATION ----
+eval mean loss: 0.326419
+eval accuracy: 0.916532
+eval avg class acc: 0.887581
+**** EPOCH 135 ****
+2019-10-31 17:19:16.326300
+2019-10-31 17:20:44.100876
+---- EPOCH 135 EVALUATION ----
+eval mean loss: 0.325123
+eval accuracy: 0.915721
+eval avg class acc: 0.886163
+**** EPOCH 136 ****
+2019-10-31 17:20:52.682242
+2019-10-31 17:22:21.862121
+---- EPOCH 136 EVALUATION ----
+eval mean loss: 0.320986
+eval accuracy: 0.918152
+eval avg class acc: 0.885291
+**** EPOCH 137 ****
+2019-10-31 17:22:31.024515
+2019-10-31 17:24:00.106343
+---- EPOCH 137 EVALUATION ----
+eval mean loss: 0.328925
+eval accuracy: 0.914911
+eval avg class acc: 0.885453
+**** EPOCH 138 ****
+2019-10-31 17:24:09.299419
+2019-10-31 17:25:38.673147
+---- EPOCH 138 EVALUATION ----
+eval mean loss: 0.318949
+eval accuracy: 0.916126
+eval avg class acc: 0.888535
+**** EPOCH 139 ****
+2019-10-31 17:25:47.171886
+2019-10-31 17:27:16.454624
+---- EPOCH 139 EVALUATION ----
+eval mean loss: 0.311147
+eval accuracy: 0.918558
+eval avg class acc: 0.882907
+**** EPOCH 140 ****
+2019-10-31 17:27:25.677978
+2019-10-31 17:28:54.386661
+---- EPOCH 140 EVALUATION ----
+eval mean loss: 0.323326
+eval accuracy: 0.916126
+eval avg class acc: 0.889453
+**** EPOCH 141 ****
+2019-10-31 17:29:03.745690
+2019-10-31 17:30:32.938566
+---- EPOCH 141 EVALUATION ----
+eval mean loss: 0.330676
+eval accuracy: 0.913290
+eval avg class acc: 0.885785
+**** EPOCH 142 ****
+2019-10-31 17:30:41.849846
+2019-10-31 17:32:10.555393
+---- EPOCH 142 EVALUATION ----
+eval mean loss: 0.331368
+eval accuracy: 0.915316
+eval avg class acc: 0.880907
+**** EPOCH 143 ****
+2019-10-31 17:32:19.434236
+2019-10-31 17:33:48.882080
+---- EPOCH 143 EVALUATION ----
+eval mean loss: 0.328125
+eval accuracy: 0.916126
+eval avg class acc: 0.886244
+**** EPOCH 144 ****
+2019-10-31 17:33:57.959565
+2019-10-31 17:35:26.852267
+---- EPOCH 144 EVALUATION ----
+eval mean loss: 0.328970
+eval accuracy: 0.916937
+eval avg class acc: 0.887035
+**** EPOCH 145 ****
+2019-10-31 17:35:35.834153
+2019-10-31 17:37:05.306519
+---- EPOCH 145 EVALUATION ----
+eval mean loss: 0.337688
+eval accuracy: 0.916937
+eval avg class acc: 0.883750
+**** EPOCH 146 ****
+2019-10-31 17:37:14.360299
+2019-10-31 17:38:43.270082
+---- EPOCH 146 EVALUATION ----
+eval mean loss: 0.334528
+eval accuracy: 0.916532
+eval avg class acc: 0.887663
+**** EPOCH 147 ****
+2019-10-31 17:38:52.469528
+2019-10-31 17:40:21.250651
+---- EPOCH 147 EVALUATION ----
+eval mean loss: 0.316855
+eval accuracy: 0.918963
+eval avg class acc: 0.889076
+**** EPOCH 148 ****
+2019-10-31 17:40:29.956239
+2019-10-31 17:41:59.501620
+---- EPOCH 148 EVALUATION ----
+eval mean loss: 0.322600
+eval accuracy: 0.915721
+eval avg class acc: 0.884872
+**** EPOCH 149 ****
+2019-10-31 17:42:08.349726
+2019-10-31 17:43:37.715630
+---- EPOCH 149 EVALUATION ----
+eval mean loss: 0.322407
+eval accuracy: 0.914100
+eval avg class acc: 0.882872
+**** EPOCH 150 ****
+2019-10-31 17:43:46.638542
+2019-10-31 17:45:15.986926
+---- EPOCH 150 EVALUATION ----
+eval mean loss: 0.330358
+eval accuracy: 0.916532
+eval avg class acc: 0.882744
+**** EPOCH 151 ****
+2019-10-31 17:45:24.597427
+2019-10-31 17:46:53.734638
+---- EPOCH 151 EVALUATION ----
+eval mean loss: 0.321515
+eval accuracy: 0.916126
+eval avg class acc: 0.883203
+**** EPOCH 152 ****
+2019-10-31 17:47:03.058528
+2019-10-31 17:48:32.164025
+---- EPOCH 152 EVALUATION ----
+eval mean loss: 0.326759
+eval accuracy: 0.916532
+eval avg class acc: 0.888494
+**** EPOCH 153 ****
+2019-10-31 17:48:41.183133
+2019-10-31 17:50:10.162688
+---- EPOCH 153 EVALUATION ----
+eval mean loss: 0.322624
+eval accuracy: 0.917747
+eval avg class acc: 0.889372
+**** EPOCH 154 ****
+2019-10-31 17:50:19.083033
+2019-10-31 17:51:47.822650
+---- EPOCH 154 EVALUATION ----
+eval mean loss: 0.327099
+eval accuracy: 0.914506
+eval avg class acc: 0.885209
+**** EPOCH 155 ****
+2019-10-31 17:51:56.707779
+2019-10-31 17:53:26.429789
+---- EPOCH 155 EVALUATION ----
+eval mean loss: 0.329288
+eval accuracy: 0.914100
+eval avg class acc: 0.887081
+**** EPOCH 156 ****
+2019-10-31 17:53:35.316552
+2019-10-31 17:55:04.471175
+---- EPOCH 156 EVALUATION ----
+eval mean loss: 0.336907
+eval accuracy: 0.916126
+eval avg class acc: 0.881616
+**** EPOCH 157 ****
+2019-10-31 17:55:13.960457
+2019-10-31 17:56:43.922118
+---- EPOCH 157 EVALUATION ----
+eval mean loss: 0.342351
+eval accuracy: 0.918152
+eval avg class acc: 0.888744
+**** EPOCH 158 ****
+2019-10-31 17:56:53.402987
+2019-10-31 17:58:22.895619
+---- EPOCH 158 EVALUATION ----
+eval mean loss: 0.324937
+eval accuracy: 0.917342
+eval avg class acc: 0.891285
+**** EPOCH 159 ****
+2019-10-31 17:58:32.222672
+2019-10-31 18:00:01.864801
+---- EPOCH 159 EVALUATION ----
+eval mean loss: 0.335058
+eval accuracy: 0.912480
+eval avg class acc: 0.882831
+**** EPOCH 160 ****
+2019-10-31 18:00:10.844512
+2019-10-31 18:01:40.164129
+---- EPOCH 160 EVALUATION ----
+eval mean loss: 0.342256
+eval accuracy: 0.914506
+eval avg class acc: 0.883413
+**** EPOCH 161 ****
+2019-10-31 18:01:49.786547
+2019-10-31 18:03:20.999110
+---- EPOCH 161 EVALUATION ----
+eval mean loss: 0.324793
+eval accuracy: 0.920583
+eval avg class acc: 0.895116
+**** EPOCH 162 ****
+2019-10-31 18:03:30.001215
+2019-10-31 18:04:59.163510
+---- EPOCH 162 EVALUATION ----
+eval mean loss: 0.332015
+eval accuracy: 0.922204
+eval avg class acc: 0.890366
+**** EPOCH 163 ****
+2019-10-31 18:05:08.869766
+2019-10-31 18:06:38.162373
+---- EPOCH 163 EVALUATION ----
+eval mean loss: 0.334819
+eval accuracy: 0.915721
+eval avg class acc: 0.887122
+**** EPOCH 164 ****
+2019-10-31 18:06:47.250817
+2019-10-31 18:08:15.721468
+---- EPOCH 164 EVALUATION ----
+eval mean loss: 0.336350
+eval accuracy: 0.915721
+eval avg class acc: 0.884366
+**** EPOCH 165 ****
+2019-10-31 18:08:24.355067
+2019-10-31 18:09:53.472658
+---- EPOCH 165 EVALUATION ----
+eval mean loss: 0.332219
+eval accuracy: 0.917747
+eval avg class acc: 0.889413
+**** EPOCH 166 ****
+2019-10-31 18:10:02.688372
+2019-10-31 18:11:31.492469
+---- EPOCH 166 EVALUATION ----
+eval mean loss: 0.333887
+eval accuracy: 0.917342
+eval avg class acc: 0.888953
+**** EPOCH 167 ****
+2019-10-31 18:11:40.394297
+2019-10-31 18:13:10.508966
+---- EPOCH 167 EVALUATION ----
+eval mean loss: 0.327202
+eval accuracy: 0.916937
+eval avg class acc: 0.886826
+**** EPOCH 168 ****
+2019-10-31 18:13:19.415989
+2019-10-31 18:14:49.611465
+---- EPOCH 168 EVALUATION ----
+eval mean loss: 0.327963
+eval accuracy: 0.916126
+eval avg class acc: 0.890203
+**** EPOCH 169 ****
+2019-10-31 18:14:58.873489
+2019-10-31 18:16:28.140781
+---- EPOCH 169 EVALUATION ----
+eval mean loss: 0.327949
+eval accuracy: 0.915721
+eval avg class acc: 0.888163
+**** EPOCH 170 ****
+2019-10-31 18:16:37.518898
+2019-10-31 18:18:06.545527
+---- EPOCH 170 EVALUATION ----
+eval mean loss: 0.337107
+eval accuracy: 0.917747
+eval avg class acc: 0.884576
+**** EPOCH 171 ****
+2019-10-31 18:18:15.690476
+2019-10-31 18:19:45.562965
+---- EPOCH 171 EVALUATION ----
+eval mean loss: 0.329198
+eval accuracy: 0.917342
+eval avg class acc: 0.890366
+**** EPOCH 172 ****
+2019-10-31 18:19:55.159499
+2019-10-31 18:21:24.726289
+---- EPOCH 172 EVALUATION ----
+eval mean loss: 0.321537
+eval accuracy: 0.919368
+eval avg class acc: 0.889203
+**** EPOCH 173 ****
+2019-10-31 18:21:33.863599
+2019-10-31 18:23:03.822805
+---- EPOCH 173 EVALUATION ----
+eval mean loss: 0.337396
+eval accuracy: 0.916937
+eval avg class acc: 0.888622
+**** EPOCH 174 ****
+2019-10-31 18:23:12.963044
+2019-10-31 18:24:42.726827
+---- EPOCH 174 EVALUATION ----
+eval mean loss: 0.343268
+eval accuracy: 0.913695
+eval avg class acc: 0.885622
+**** EPOCH 175 ****
+2019-10-31 18:24:52.269503
+2019-10-31 18:26:21.398489
+---- EPOCH 175 EVALUATION ----
+eval mean loss: 0.336060
+eval accuracy: 0.914911
+eval avg class acc: 0.882494
+**** EPOCH 176 ****
+2019-10-31 18:26:30.460623
+2019-10-31 18:27:59.973235
+---- EPOCH 176 EVALUATION ----
+eval mean loss: 0.327657
+eval accuracy: 0.918558
+eval avg class acc: 0.889744
+**** EPOCH 177 ****
+2019-10-31 18:28:09.067390
+2019-10-31 18:29:39.377928
+---- EPOCH 177 EVALUATION ----
+eval mean loss: 0.335415
+eval accuracy: 0.919773
+eval avg class acc: 0.887785
+**** EPOCH 178 ****
+2019-10-31 18:29:48.705568
+2019-10-31 18:31:18.653965
+---- EPOCH 178 EVALUATION ----
+eval mean loss: 0.320308
+eval accuracy: 0.920583
+eval avg class acc: 0.888448
+**** EPOCH 179 ****
+2019-10-31 18:31:28.455248
+2019-10-31 18:32:58.169980
+---- EPOCH 179 EVALUATION ----
+eval mean loss: 0.337677
+eval accuracy: 0.918152
+eval avg class acc: 0.887785
+**** EPOCH 180 ****
+2019-10-31 18:33:07.312148
+2019-10-31 18:34:35.983032
+---- EPOCH 180 EVALUATION ----
+eval mean loss: 0.325466
+eval accuracy: 0.917747
+eval avg class acc: 0.885453
+**** EPOCH 181 ****
+2019-10-31 18:34:45.552627
+2019-10-31 18:36:16.762770
+---- EPOCH 181 EVALUATION ----
+eval mean loss: 0.325810
+eval accuracy: 0.918558
+eval avg class acc: 0.884994
+**** EPOCH 182 ****
+2019-10-31 18:36:25.838589
+2019-10-31 18:37:55.824201
+---- EPOCH 182 EVALUATION ----
+eval mean loss: 0.340412
+eval accuracy: 0.912885
+eval avg class acc: 0.879291
+**** EPOCH 183 ****
+2019-10-31 18:38:04.798015
+2019-10-31 18:39:34.431436
+---- EPOCH 183 EVALUATION ----
+eval mean loss: 0.342454
+eval accuracy: 0.916532
+eval avg class acc: 0.884826
+**** EPOCH 184 ****
+2019-10-31 18:39:43.659120
+2019-10-31 18:41:13.352098
+---- EPOCH 184 EVALUATION ----
+eval mean loss: 0.339336
+eval accuracy: 0.916937
+eval avg class acc: 0.888035
+**** EPOCH 185 ****
+2019-10-31 18:41:22.621218
+2019-10-31 18:42:52.693074
+---- EPOCH 185 EVALUATION ----
+eval mean loss: 0.339280
+eval accuracy: 0.915316
+eval avg class acc: 0.887994
+**** EPOCH 186 ****
+2019-10-31 18:43:02.123621
+2019-10-31 18:44:31.720068
+---- EPOCH 186 EVALUATION ----
+eval mean loss: 0.347075
+eval accuracy: 0.917342
+eval avg class acc: 0.888285
+**** EPOCH 187 ****
+2019-10-31 18:44:40.735058
+2019-10-31 18:46:10.388499
+---- EPOCH 187 EVALUATION ----
+eval mean loss: 0.336976
+eval accuracy: 0.914100
+eval avg class acc: 0.888122
+**** EPOCH 188 ****
+2019-10-31 18:46:19.109863
+2019-10-31 18:47:49.130535
+---- EPOCH 188 EVALUATION ----
+eval mean loss: 0.344402
+eval accuracy: 0.913695
+eval avg class acc: 0.886035
+**** EPOCH 189 ****
+2019-10-31 18:47:58.776747
+2019-10-31 18:49:27.890094
+---- EPOCH 189 EVALUATION ----
+eval mean loss: 0.343679
+eval accuracy: 0.914506
+eval avg class acc: 0.887535
+**** EPOCH 190 ****
+2019-10-31 18:49:37.331053
+2019-10-31 18:51:06.814815
+---- EPOCH 190 EVALUATION ----
+eval mean loss: 0.339930
+eval accuracy: 0.912885
+eval avg class acc: 0.885494
+**** EPOCH 191 ****
+2019-10-31 18:51:16.325464
+2019-10-31 18:52:45.633536
+---- EPOCH 191 EVALUATION ----
+eval mean loss: 0.344823
+eval accuracy: 0.914911
+eval avg class acc: 0.885744
+**** EPOCH 192 ****
+2019-10-31 18:52:55.350952
+2019-10-31 18:54:25.288727
+---- EPOCH 192 EVALUATION ----
+eval mean loss: 0.333855
+eval accuracy: 0.915316
+eval avg class acc: 0.886913
+**** EPOCH 193 ****
+2019-10-31 18:54:34.011426
+2019-10-31 18:56:03.108277
+---- EPOCH 193 EVALUATION ----
+eval mean loss: 0.354799
+eval accuracy: 0.913290
+eval avg class acc: 0.884663
+**** EPOCH 194 ****
+2019-10-31 18:56:12.643460
+2019-10-31 18:57:42.498649
+---- EPOCH 194 EVALUATION ----
+eval mean loss: 0.348037
+eval accuracy: 0.913695
+eval avg class acc: 0.882076
+**** EPOCH 195 ****
+2019-10-31 18:57:51.831957
+2019-10-31 18:59:21.208745
+---- EPOCH 195 EVALUATION ----
+eval mean loss: 0.337109
+eval accuracy: 0.914911
+eval avg class acc: 0.881907
+**** EPOCH 196 ****
+2019-10-31 18:59:30.294016
+2019-10-31 19:00:59.747817
+---- EPOCH 196 EVALUATION ----
+eval mean loss: 0.339972
+eval accuracy: 0.919773
+eval avg class acc: 0.890744
+**** EPOCH 197 ****
+2019-10-31 19:01:09.201482
+2019-10-31 19:02:38.417686
+---- EPOCH 197 EVALUATION ----
+eval mean loss: 0.337102
+eval accuracy: 0.919368
+eval avg class acc: 0.887616
+**** EPOCH 198 ****
+2019-10-31 19:02:47.607997
+2019-10-31 19:04:17.135764
+---- EPOCH 198 EVALUATION ----
+eval mean loss: 0.341901
+eval accuracy: 0.914911
+eval avg class acc: 0.888703
+**** EPOCH 199 ****
+2019-10-31 19:04:26.640113
+2019-10-31 19:05:56.654227
+---- EPOCH 199 EVALUATION ----
+eval mean loss: 0.350149
+eval accuracy: 0.916937
+eval avg class acc: 0.887994
+**** EPOCH 200 ****
+2019-10-31 19:06:05.995683
+2019-10-31 19:07:35.731510
+---- EPOCH 200 EVALUATION ----
+eval mean loss: 0.336611
+eval accuracy: 0.916532
+eval avg class acc: 0.884826
+**** EPOCH 201 ****
+2019-10-31 19:07:44.752890
+2019-10-31 19:09:14.772679
+---- EPOCH 201 EVALUATION ----
+eval mean loss: 0.329822
+eval accuracy: 0.916126
+eval avg class acc: 0.887576
+**** EPOCH 202 ****
+2019-10-31 19:09:24.170984
+2019-10-31 19:10:53.558164
+---- EPOCH 202 EVALUATION ----
+eval mean loss: 0.349890
+eval accuracy: 0.914100
+eval avg class acc: 0.882163
+**** EPOCH 203 ****
+2019-10-31 19:11:02.888304
+2019-10-31 19:12:32.186825
+---- EPOCH 203 EVALUATION ----
+eval mean loss: 0.336275
+eval accuracy: 0.914506
+eval avg class acc: 0.888372
+**** EPOCH 204 ****
+2019-10-31 19:12:41.592385
+2019-10-31 19:14:11.503269
+---- EPOCH 204 EVALUATION ----
+eval mean loss: 0.342874
+eval accuracy: 0.916937
+eval avg class acc: 0.886076
+**** EPOCH 205 ****
+2019-10-31 19:14:21.082167
+2019-10-31 19:15:49.576809
+---- EPOCH 205 EVALUATION ----
+eval mean loss: 0.343678
+eval accuracy: 0.917747
+eval avg class acc: 0.884494
+**** EPOCH 206 ****
+2019-10-31 19:15:58.541141
+2019-10-31 19:17:27.820631
+---- EPOCH 206 EVALUATION ----
+eval mean loss: 0.342267
+eval accuracy: 0.914100
+eval avg class acc: 0.881163
+**** EPOCH 207 ****
+2019-10-31 19:17:36.782139
+2019-10-31 19:19:06.732307
+---- EPOCH 207 EVALUATION ----
+eval mean loss: 0.346360
+eval accuracy: 0.914911
+eval avg class acc: 0.884622
+**** EPOCH 208 ****
+2019-10-31 19:19:16.209087
+2019-10-31 19:20:46.054612
+---- EPOCH 208 EVALUATION ----
+eval mean loss: 0.343728
+eval accuracy: 0.914911
+eval avg class acc: 0.883163
+**** EPOCH 209 ****
+2019-10-31 19:20:55.814417
+2019-10-31 19:22:25.908048
+---- EPOCH 209 EVALUATION ----
+eval mean loss: 0.336181
+eval accuracy: 0.918152
+eval avg class acc: 0.890785
+**** EPOCH 210 ****
+2019-10-31 19:22:35.119213
+2019-10-31 19:24:05.529005
+---- EPOCH 210 EVALUATION ----
+eval mean loss: 0.343807
+eval accuracy: 0.914100
+eval avg class acc: 0.883913
+**** EPOCH 211 ****
+2019-10-31 19:24:14.574554
+2019-10-31 19:25:44.244653
+---- EPOCH 211 EVALUATION ----
+eval mean loss: 0.340042
+eval accuracy: 0.916532
+eval avg class acc: 0.883576
+**** EPOCH 212 ****
+2019-10-31 19:25:53.258959
+2019-10-31 19:27:22.773396
+---- EPOCH 212 EVALUATION ----
+eval mean loss: 0.351961
+eval accuracy: 0.916937
+eval avg class acc: 0.888913
+**** EPOCH 213 ****
+2019-10-31 19:27:32.018325
+2019-10-31 19:29:01.994127
+---- EPOCH 213 EVALUATION ----
+eval mean loss: 0.345401
+eval accuracy: 0.915721
+eval avg class acc: 0.885203
+**** EPOCH 214 ****
+2019-10-31 19:29:11.025665
+2019-10-31 19:30:40.495779
+---- EPOCH 214 EVALUATION ----
+eval mean loss: 0.353860
+eval accuracy: 0.916937
+eval avg class acc: 0.884076
+**** EPOCH 215 ****
+2019-10-31 19:30:50.321822
+2019-10-31 19:32:20.140608
+---- EPOCH 215 EVALUATION ----
+eval mean loss: 0.344473
+eval accuracy: 0.914911
+eval avg class acc: 0.884744
+**** EPOCH 216 ****
+2019-10-31 19:32:29.838116
+2019-10-31 19:33:59.004421
+---- EPOCH 216 EVALUATION ----
+eval mean loss: 0.338770
+eval accuracy: 0.916937
+eval avg class acc: 0.884831
+**** EPOCH 217 ****
+2019-10-31 19:34:08.084123
+2019-10-31 19:35:36.757273
+---- EPOCH 217 EVALUATION ----
+eval mean loss: 0.344721
+eval accuracy: 0.915721
+eval avg class acc: 0.887872
+**** EPOCH 218 ****
+2019-10-31 19:35:46.291668
+2019-10-31 19:37:15.913340
+---- EPOCH 218 EVALUATION ----
+eval mean loss: 0.343795
+eval accuracy: 0.916937
+eval avg class acc: 0.888994
+**** EPOCH 219 ****
+2019-10-31 19:37:25.021645
+2019-10-31 19:38:54.450076
+---- EPOCH 219 EVALUATION ----
+eval mean loss: 0.348727
+eval accuracy: 0.913290
+eval avg class acc: 0.880622
+**** EPOCH 220 ****
+2019-10-31 19:39:03.713915
+2019-10-31 19:40:33.132779
+---- EPOCH 220 EVALUATION ----
+eval mean loss: 0.338301
+eval accuracy: 0.916532
+eval avg class acc: 0.886535
+**** EPOCH 221 ****
+2019-10-31 19:40:42.532012
+2019-10-31 19:42:12.094680
+---- EPOCH 221 EVALUATION ----
+eval mean loss: 0.340597
+eval accuracy: 0.916937
+eval avg class acc: 0.885076
+**** EPOCH 222 ****
+2019-10-31 19:42:21.428724
+2019-10-31 19:43:51.233452
+---- EPOCH 222 EVALUATION ----
+eval mean loss: 0.346296
+eval accuracy: 0.914911
+eval avg class acc: 0.885453
+**** EPOCH 223 ****
+2019-10-31 19:44:00.727551
+2019-10-31 19:45:29.893996
+---- EPOCH 223 EVALUATION ----
+eval mean loss: 0.348931
+eval accuracy: 0.914911
+eval avg class acc: 0.884622
+**** EPOCH 224 ****
+2019-10-31 19:45:39.267878
+2019-10-31 19:47:09.175335
+---- EPOCH 224 EVALUATION ----
+eval mean loss: 0.342241
+eval accuracy: 0.916937
+eval avg class acc: 0.889035
+**** EPOCH 225 ****
+2019-10-31 19:47:18.426923
+2019-10-31 19:48:48.543633
+---- EPOCH 225 EVALUATION ----
+eval mean loss: 0.347843
+eval accuracy: 0.918558
+eval avg class acc: 0.889035
+**** EPOCH 226 ****
+2019-10-31 19:48:57.649823
+2019-10-31 19:50:27.097027
+---- EPOCH 226 EVALUATION ----
+eval mean loss: 0.349925
+eval accuracy: 0.913290
+eval avg class acc: 0.881453
+**** EPOCH 227 ****
+2019-10-31 19:50:36.815573
+2019-10-31 19:52:06.795077
+---- EPOCH 227 EVALUATION ----
+eval mean loss: 0.353387
+eval accuracy: 0.915316
+eval avg class acc: 0.881831
+**** EPOCH 228 ****
+2019-10-31 19:52:15.963695
+2019-10-31 19:53:46.154813
+---- EPOCH 228 EVALUATION ----
+eval mean loss: 0.350492
+eval accuracy: 0.914911
+eval avg class acc: 0.885622
+**** EPOCH 229 ****
+2019-10-31 19:53:55.999854
+2019-10-31 19:55:25.887268
+---- EPOCH 229 EVALUATION ----
+eval mean loss: 0.355433
+eval accuracy: 0.914100
+eval avg class acc: 0.886285
+**** EPOCH 230 ****
+2019-10-31 19:55:35.138424
+2019-10-31 19:57:04.930032
+---- EPOCH 230 EVALUATION ----
+eval mean loss: 0.348305
+eval accuracy: 0.914506
+eval avg class acc: 0.881331
+**** EPOCH 231 ****
+2019-10-31 19:57:14.304695
+2019-10-31 19:58:44.271342
+---- EPOCH 231 EVALUATION ----
+eval mean loss: 0.353295
+eval accuracy: 0.918963
+eval avg class acc: 0.888163
+**** EPOCH 232 ****
+2019-10-31 19:58:53.878167
+2019-10-31 20:00:23.352007
+---- EPOCH 232 EVALUATION ----
+eval mean loss: 0.342489
+eval accuracy: 0.917747
+eval avg class acc: 0.889285
+**** EPOCH 233 ****
+2019-10-31 20:00:32.177762
+2019-10-31 20:02:02.329702
+---- EPOCH 233 EVALUATION ----
+eval mean loss: 0.354669
+eval accuracy: 0.914506
+eval avg class acc: 0.882244
+**** EPOCH 234 ****
+2019-10-31 20:02:11.702031
+2019-10-31 20:03:41.325814
+---- EPOCH 234 EVALUATION ----
+eval mean loss: 0.363017
+eval accuracy: 0.914100
+eval avg class acc: 0.882163
+**** EPOCH 235 ****
+2019-10-31 20:03:50.067841
+2019-10-31 20:05:19.738202
+---- EPOCH 235 EVALUATION ----
+eval mean loss: 0.362925
+eval accuracy: 0.910454
+eval avg class acc: 0.880250
+**** EPOCH 236 ****
+2019-10-31 20:05:29.030354
+2019-10-31 20:06:59.099727
+---- EPOCH 236 EVALUATION ----
+eval mean loss: 0.357124
+eval accuracy: 0.917747
+eval avg class acc: 0.887244
+**** EPOCH 237 ****
+2019-10-31 20:07:08.003550
+2019-10-31 20:08:37.051151
+---- EPOCH 237 EVALUATION ----
+eval mean loss: 0.362985
+eval accuracy: 0.913290
+eval avg class acc: 0.882413
+**** EPOCH 238 ****
+2019-10-31 20:08:46.132899
+2019-10-31 20:10:16.103811
+---- EPOCH 238 EVALUATION ----
+eval mean loss: 0.354647
+eval accuracy: 0.915316
+eval avg class acc: 0.886831
+**** EPOCH 239 ****
+2019-10-31 20:10:25.783779
+2019-10-31 20:11:54.273947
+---- EPOCH 239 EVALUATION ----
+eval mean loss: 0.358190
+eval accuracy: 0.916532
+eval avg class acc: 0.887663
+**** EPOCH 240 ****
+2019-10-31 20:12:03.398156
+2019-10-31 20:13:33.449689
+---- EPOCH 240 EVALUATION ----
+eval mean loss: 0.346487
+eval accuracy: 0.916532
+eval avg class acc: 0.888581
+**** EPOCH 241 ****
+2019-10-31 20:13:42.643373
+2019-10-31 20:15:13.710403
+---- EPOCH 241 EVALUATION ----
+eval mean loss: 0.361208
+eval accuracy: 0.914911
+eval avg class acc: 0.881703
+**** EPOCH 242 ****
+2019-10-31 20:15:22.741079
+2019-10-31 20:16:52.572447
+---- EPOCH 242 EVALUATION ----
+eval mean loss: 0.352406
+eval accuracy: 0.916126
+eval avg class acc: 0.884326
+**** EPOCH 243 ****
+2019-10-31 20:17:02.078131
+2019-10-31 20:18:31.523792
+---- EPOCH 243 EVALUATION ----
+eval mean loss: 0.355289
+eval accuracy: 0.913695
+eval avg class acc: 0.886872
+**** EPOCH 244 ****
+2019-10-31 20:18:40.798249
+2019-10-31 20:20:09.847671
+---- EPOCH 244 EVALUATION ----
+eval mean loss: 0.358222
+eval accuracy: 0.914100
+eval avg class acc: 0.882244
+**** EPOCH 245 ****
+2019-10-31 20:20:19.090036
+2019-10-31 20:21:48.803435
+---- EPOCH 245 EVALUATION ----
+eval mean loss: 0.352000
+eval accuracy: 0.915721
+eval avg class acc: 0.888122
+**** EPOCH 246 ****
+2019-10-31 20:21:57.724004
+2019-10-31 20:23:26.851892
+---- EPOCH 246 EVALUATION ----
+eval mean loss: 0.349238
+eval accuracy: 0.914100
+eval avg class acc: 0.883285
+**** EPOCH 247 ****
+2019-10-31 20:23:36.419225
+2019-10-31 20:25:05.913770
+---- EPOCH 247 EVALUATION ----
+eval mean loss: 0.343789
+eval accuracy: 0.919368
+eval avg class acc: 0.888494
+**** EPOCH 248 ****
+2019-10-31 20:25:15.837119
+2019-10-31 20:26:46.784847
+---- EPOCH 248 EVALUATION ----
+eval mean loss: 0.350146
+eval accuracy: 0.919773
+eval avg class acc: 0.888663
+**** EPOCH 249 ****
+2019-10-31 20:26:57.483302
+2019-10-31 20:28:26.638394
+---- EPOCH 249 EVALUATION ----
+eval mean loss: 0.352094
+eval accuracy: 0.916126
+eval avg class acc: 0.885494
+**** EPOCH 250 ****
+2019-10-31 20:28:36.774465
+2019-10-31 20:30:06.358965
+---- EPOCH 250 EVALUATION ----
+eval mean loss: 0.346556
+eval accuracy: 0.916532
+eval avg class acc: 0.885291
