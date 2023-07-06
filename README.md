@@ -28,7 +28,7 @@ We provide networks trained on the modelnet40 datasets, and the network paramete
 ```
 > python evaluate.py
 ```
-
+The SPS module is in the `SPS-LCNN/utils/pointnet_util.py/ECA_model`
 
 All model parameter files of this experiment are in the network disk, and the [link](https://pan.baidu.com/s/1R-BC3i9zzdl1n4k_R6SXnw) is as follows.
 
